@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje boje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="MainHeader">Moje boje ... z programowaniem</h1>
+        <button class="button">Zmień motyw na <span class="theme">ciemny</span></button>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#o-mnie" class="navigation__link">O mnie</a></li>
+            <li class="navigation__item"><a href="#programowanie" class="navigation__link">Programowanie</a></li>
+            <li class="navigation__item"><a href="#moje-ulubione-seriale" class="navigation__link">Moje ulubione
+                    seriale</a></li>
+            <li class="navigation__item"><a href="#sport" class="navigation__link">Sport </a></li>
+            <li class="navigation__item"><a href="#kontakt" class="navigation__link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="o-mnie">
+        <h2 class="header">O mnie</h2>
+        <p class="article">
+            Mam na imię Grzegorz. Pochodzę z Gdańska, a obecnie mieszkam w Tczewie. Od kilkunastu lat pracuję w
+            logistyce jednej z pomorskich fabryk. Robiłem w życiu wiele rzeczy, to co robię teraz jest spoko zajęciem,
+            ale od pewnego czasu zacząłem myśleć nad zmianą, bo zbyt często już zaczynam czuć monotonię i znużenie.
+            Zawsze ciągnęło mnie do kreatywności. Strasznie mnie kręci obcowanie z wytworami różnej maści artystów, od
+            muzyków, grafików przez twórców gier lub aplikacji do kół gospodyń wiejskich tworzących sztukę ludową.
+            Ponieważ bardzo lubię korzystać z komputera i troszkę obcowałem juz z programowaniem, a w branży IT jest
+            opcja pracy zdalnej na codzień, zapisałem się na kurs frontendu, aby się przebranżowić i robić coś co mnie
+            jara od małego. Pasjami ogladam seriale, zaczęło sie chyba od "Czterech Pancernych" 😊 ale najbardziej lubię
+            wszelkiej maści seriale detektywistyczne, głównie robione w USA.
+        </p>
+    </section>
+
+    <section id="programowanie">
+        <h2 class="header">Programowanie</h2>
+        <p class="article">
+            Od wielu lat interesuję się programowaniem, pierwsze próby
+            podejmowałem już na komputerze Commodore4 64, przepisujac i modyfikując proste programy napisane w Basicu.
+            Wraz z upływem czasu i kolejnymi upgrejdami sprzętu zapoznawałem się z różnymi jezykami i sposobami
+            tworzenia
+            aplikacji czy gier, ale nauką programowania tego bym nie nazwał. Na kilka lat pochłonęło mnie tworzenie
+            amatorskich gier w apliakjach typu <strong>GameMaker: Studio</strong> czy <strong>Multimedia
+                Fusion</strong>. Pozwalają one na tworzenie programów lub gier bez większej znajomości programowania.
+            Nie jest to programowanie, ale pozwala zrobić coś kreatywnego i pouczyć się trochę kombinowania z
+            algorytmami, które może być przydatne w kodowaniu. Choć osobiście nie stworzyłem nic spektakularnego, miałem
+            przyjemnośc przy tej okazji poznać wielu ciekawych ludzi, brać udział w fajnych eventach czy po prostu
+            poobcować z kreatywnością innych twórców.
+        </p>
+    </section>
+
+    <section id="moje-ulubione-seriale">
+        <h2 class="header">Moje ulubione seriale</h2>
+        <img class="photo" src="https://zapodaj.net/images/0b99f9be8bf30.jpg" alt="NCIS Baner">
+        <table class="table__serials">
+
+            <tr>
+                <th class="table__cells table__tab__header" scope="col">Tytuł</th>
+                <th class="table__cells table__tab__header" scope="col">Krótki opis</th>
+                <th class="table__cells table__tab__header" scope="col">Lata emisji</th>
+                <th class="table__cells table__tab__header" scope="col">Ilośc sezonów</th>
+            </tr>
+            <tr>
+                <th class="table__cells table__tab__header" scope="row">Agenci NCIS</th>
+                <td class="table__cells">Grupa pracowników rządowej agencji NCIS rozwiązuje trudne zagadki
+                    kryminalne związane z Marynarką Wojenną. Dowodzi nią działający według własnych zasad Jethro
+                    Gibbs.</td>
+                <td class="table__cells">2003-teraz</td>
+                <td class="table__cells">20</td>
+            </tr>
+            <tr>
+                <th class="table__cells table__tab__header" scope="row">NCIS: Los Angeles</th>
+                <td class="table__cells">Agenci biura NCIS w Los Angeles działają pod przykrywką, by
+                    rozwiązywać trudne i
+                    często szokujące
+                    sprawy.</td>
+                <td class="table__cells">2009-teraz</td>
+                <td class="table__cells">14</td>
+            </tr>
+
+            <tr>
+                <th class="table__cells table__tab__header" scope="row">Lost: Zagubieni</th>
+                <td class="table__cells">Kiedy samolot lecący do Los Angeles rozbija się na bezludnej
+                    wyspie, grupa ocalałych
+                    próbuje przetrwać.
+                </td>
+                <td class="table__cells">2004-2010</td>
+                <td class="table__cells">6</td>
+            </tr>
+            <tr>
+                <th class="table__cells table__tab__header" scope="row">Strażnik Teksasu</th>
+                <td class="table__cells">Cordell Walker (Chuck Norris) walczy ze wszystkimi formami
+                    przestępczości w stanie
+                    Teksas. Pomagają mu w
+                    tym inni agenci oraz Alex Cahill - prokurator - prywatnie sympatia Walkera.</td>
+                <td class="table__cells">1993–2001</td>
+                <td class="table__cells">9</td>
+            </tr>
+            <tr>
+                <th class="table__cells table__tab__header" scope="row">Z archiwum X</th>
+                <td class="table__cells">Serial opowiada o nietypowej parze agentów FBI, do której trafiają
+                    wszystkie sprawy
+                    nie dające się
+                    wyjaśnić na drodze konwencjonalnego rozumowania.</td>
+                <td class="table__cells">1993-2018</td>
+                <td class="table__cells">11</td>
+            </tr>
+        </table>
+
+    </section>
+    <section id="sport">
+        <h2 class="header">Sport</h2>
+        <img class="photo" src="https://zapodaj.net/images/c61aa96ba6593.jpg" alt="bicykle on rain">
+        <p class="article">
+            Moją pasją jest również sport. Bardzo lubię jazdę rowerem, koszykówkę oraz piłkę nożną, chociaż tą ostatnią
+            to głównie oglądać, bo sam kopaczem jestem raczej miernym.
+        </p>
+    </section>
+    <section id="kontakt">
+        <h2 class="header">Kontakt</h2>
+        <p class="article">
+            Mozna mnie złapać w sieci na rożne sposoby. Jestem na FB i IG, ale preferowaną formą kontaktu jest email.
+        </p>
+        <img class="photo" src="https://zapodaj.net/images/c940576c71b1c.jpg" alt="social icons">
+
+    </section>
+
+    <footer class="footer">
+        Copyright © 2023 Grzegorz Prabucki
+    </footer>
+</body>
+
+</html>

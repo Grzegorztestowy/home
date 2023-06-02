@@ -1,0 +1,23 @@
+.MainHeader {
+    background-image:url('https://zapodaj.net/images/7781ae71feed8.jpg');
+    font-family: 'Solitreo', cursive;
+    height: 180px;
+    color: #2fdb46;
+    text-shadow: 3px 3px #4d4e4b;
+    font-weight: normal;
+    text-align: center;
+    font-size: 60px;
+    padding: 4px;
+    box-shadow: 1px 1px 5px 0px #082a6a;
+    border-radius: 10px;
+    text-decoration: underline;  
+}
+
+.header {
+    color: #13c5a5;
+    font-family: 'Solitreo', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: center;
+}

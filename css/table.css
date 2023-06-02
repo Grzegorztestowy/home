@@ -1,0 +1,26 @@
+.table__serials {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cells {
+    border: 1px solid #ece8e8;
+    background-color:#ffffff;
+    color: #40295b;
+    padding: 14px;
+    text-align: center;
+}
+
+.table__cells:hover {
+    background-color:#dee0e3;
+}
+
+.table__tab__header {
+    background-color: #ec5c39;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.table__tab__header:hover {
+    background-color:#ec5c39;
+}
