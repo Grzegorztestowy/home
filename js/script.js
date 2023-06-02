@@ -1,3 +1,4 @@
+console.log ("Witam serdecznie w Repozytorium 😊")
 let button = document.querySelector(".button");
 let body = document.querySelector(".body");
 let themeName = document.querySelector(".theme");
