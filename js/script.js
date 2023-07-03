@@ -1,9 +1,18 @@
-console.log ("Witam serdecznie w Repozytorium 😊")
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".theme");
-
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-})
+{
+    const  welcome = () => {
+        console.log("Witam serdecznie w Repozytorium 😊");
+    }
+    
+    const onChangeBackgroundClick = () => {
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    }
+    
+    welcome();
+    
+    const button = document.querySelector(".button");
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".theme");
+    
+    button.addEventListener("click", onChangeBackgroundClick);
+}
